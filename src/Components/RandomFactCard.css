@@ -1,0 +1,49 @@
+.randomFact{
+    background-color: transparent;
+    color: black;
+    height: 70vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 30px;
+    text-align: center;
+    border: 5px solid white;
+
+    flex-grow: 1;
+    width: 30%;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    font-size: 1.5rem;
+}
+.type{
+    font-size: 2rem;
+}
+
+.getFact{
+    font-size: 1rem;
+    margin: 10px;
+    height: 10%;
+    width: 50%;
+    border-radius: 20px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.factText{
+    color: blue;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: transparent;
+    word-wrap: break-word;
+}
+
+
+
